@@ -28,8 +28,8 @@ app.use(bodyParser.json());
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
 // ================================================================================
 
-// require("..FriendF/Routing/apiRoutes.js")(app);
-// require("../Routing/htmlRoutes.js")(app);
+require("../Routing/apiRoutes.js")(app);
+require("../Routing/htmlRoutes.js")(app);
 
 // =============================================================================
 // LISTENER
